@@ -1,0 +1,22 @@
+android_library {
+
+    name: "ConquerSystem",
+
+    optimize: {
+        enabled: false,
+    },
+
+    srcs: ["src/**/*.java"],
+
+    static_libs: [
+        "androidx.core_core",
+        "androidx.preference_preference",
+        "androidx.appcompat_appcompat",
+        "androidx.recyclerview_recyclerview",
+    ],
+
+    resource_dirs: ["res"],
+
+    min_sdk_version: "21",
+
+}
